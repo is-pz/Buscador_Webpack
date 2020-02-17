@@ -1,0 +1,36 @@
+h1{
+    font-size: 20px;
+}
+
+#container-normal{
+    max-width: 800px;
+    background-color: gray;
+    color: white;
+}
+
+
+#btn_Buscar-n{
+    margin-left: 6px;
+    background-color: #0e5a1a;
+    
+    &:hover{
+        background-color: #0c4915;
+        opacity: 0.8;
+    }
+}
+#list-n{
+    margin-left: 6px;
+}
+#op{
+    margin-right: 5px;    
+}
+a{
+    color:white;
+    margin-left: 10px;
+    text-decoration-style: none;
+
+}
+#barra{
+    color: lightskyblue;
+    margin-left: 10px;
+}

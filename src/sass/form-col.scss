@@ -1,0 +1,40 @@
+h1{
+    font-size: 20px;
+}
+
+#container-col{
+    max-width: 400px;
+    background-color: gray;
+    color: white;
+}
+#b_busqueda{
+   width: 100%;
+}
+
+#list{
+    width: 100%;
+    margin-top: 5px;
+}
+
+#btn_Buscar{
+    width: 100%;
+    background-color: #0e5a1a;
+    margin-top: 5px;
+    &:hover{
+        background-color: #0c4915;
+        opacity: 0.8;
+    }
+}
+#op{
+    margin-right: 5px;
+}
+a{
+    color:white;
+    margin-left: 10px;
+    text-decoration-style: none;
+
+}
+#barra{
+    color: lightskyblue;
+    margin-left: 10px;
+}
