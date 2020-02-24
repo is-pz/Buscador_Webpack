@@ -55,7 +55,7 @@ module.exports={
     devServer: {
         contentBase: path.resolve(__dirname,'./dist'),
         open: true,
-        port: 3002,
+        port: 3000,
         hot:true
     },
     plugins:[

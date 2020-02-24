@@ -26,11 +26,11 @@ class App extends React.Component{
             <div>
 
                 <div id="container-normal">
-                    {this.state.mostrar == true  && <Form_normal />  }
+                    {this.state.mostrar == true  && <Form_normal url={this.props.url} />  }
                 </div>
                
                 <div id="container-col">
-                    {this.state.mostrar == false && <Form_col/>  || this.state.mostrar == null && this.props.mensaje}
+                    {this.state.mostrar == false && <Form_col url={this.props.url}/>  || this.state.mostrar == null && this.props.mensaje}
                 </div>
 
             </div>
